@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portofolio Reksa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 40px;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid navy;
+        }
+        h2 {
+            color: navy;
+        }
+        ul {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+    </style>
+    </head>
+<body>
+    <h1>Halo, Nama Saya Muhammad Reksa Pratama</h1>
+ <h2>Proyek Saya</h2>
+    <ul>
+        <li>Proyek 1 </li>
+        <li>Proyek 2 </li>
+    </ul>
+
+     <button id="tombol-sapa">Sapa Saya!</button>
+    <script>
+        // Cari tombol berdasarkan ID-nya
+        var tombol = document.getElementById('tombol-sapa');
+
+        // Tambahkan "event listener" (pendengar acara)
+        // Saat tombol diklik, jalankan fungsi ini
+        tombol.onclick = function() {
+            alert('Halo! Terima kasih sudah mampir!');
+        };
+    </script>
+    </body>
+</html>
